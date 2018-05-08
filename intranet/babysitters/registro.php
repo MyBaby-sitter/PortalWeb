@@ -8,8 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css">
     <link href="https://pagekit.com/packages/pagekit/theme-homepage/css/theme.css?v=6a27" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color:#f5f5f5!important;">
 <section class="navegacion">
     <header class="cabecera">
         <div class="tm-navbar tm-navbar-overlay"
@@ -63,6 +64,12 @@
                     <div class="uk-grid uk-flex-middle uk-grid-divider uk-grid-match" data-uk-grid-margin>
                         <div class="uk-width-large-1-2">
                             <div>
+                                <h1 class="uk-text-center">
+                                    <span class="fa-stack fa-2x fa-spin">
+                                        <i class="fas fa-heart fa-stack-2x" style="color:red"></i>
+                                        <i class="fas fa-child fa-stack-1x fa-inverse fa-xs"></i>
+                                    </span>
+                                </h1>
                                 <h2 class="uk-text-center">¿Quieres ser babysitter?</h2>
                                 <p class="uk-text-center">
                                     Inscríbete en nuestra comunidad.<br>
