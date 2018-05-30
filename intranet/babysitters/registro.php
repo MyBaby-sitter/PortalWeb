@@ -5,10 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Registro Niñeras | My Baby-sitter</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css">
     <link href="https://pagekit.com/packages/pagekit/theme-homepage/css/theme.css?v=6a27" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body style="background-color:#f5f5f5!important;">
 <section class="navegacion">
@@ -65,7 +66,7 @@
                         <div class="uk-width-large-1-2">
                             <div>
                                 <h1 class="uk-text-center">
-                                    <span class="fa-stack fa-2x fa-spin">
+                                    <span class="fa-stack fa-2x">
                                         <i class="fas fa-heart fa-stack-2x" style="color:red"></i>
                                         <i class="fas fa-child fa-stack-1x fa-inverse fa-xs"></i>
                                     </span>
