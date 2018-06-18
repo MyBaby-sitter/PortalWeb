@@ -6,68 +6,16 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css">
-    <link href="https://pagekit.com/packages/pagekit/theme-homepage/css/theme.css?v=6a27" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-<?php /**
-    <!-- Smartsupp Live Chat script -->
-    <script type="text/javascript">
-        var _smartsupp = _smartsupp || {};
-        _smartsupp.key = 'b520a95d42ff4218f8a4c815e23ba262b2912ba4';
-        window.smartsupp||(function(d) {
-            var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-            s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-            c.type='text/javascript';c.charset='utf-8';c.async=true;
-            c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-        })(document);
-    </script>
-    <script>smartsupp('group', 'fDR7qC9I28'); //group Clientes no registrados</script> **/ ?>
+	<?php
+	include( "../../assets/incrustado/head.php" );
+	?>
 </head>
-<!-- Cololes [#ededed] [#fafafa] [#f5f5f5] [#e9ebee] [#f9f9fa] [#f8f8f8]-->
 <body style="background-color:#f5f5f5!important;">
 <section class="navegacion">
     <header class="cabecera">
-        <div class="tm-navbar tm-navbar-overlay"
-             data-uk-sticky="{'media':767,'showup':true,'animation':'uk-animation-slide-top'}">
-            <nav class="uk-navbar">
-                <a class="uk-navbar-brand" href="/">
-                </a>
-                <div class="uk-position-top uk-flex uk-flex-center uk-hidden-small">
-                    <ul class="uk-navbar-nav">
-
-                        <li class="">
-                            <a href="../../index.php">Inicio</a>
-                        </li>
-                        <li class="">
-                            <a href="/features">Quienes Somos</a>
-                        </li>
-                        <li class="">
-                            <a href="https://www.laguarderia.cl/como-funciona" title="">cómo funciona?</a>
-                        </li>
-                        <li class="">
-                            <a href="/marketplace">BabySitters</a>
-                        </li>
-                        <li class="">
-                            <a href="https://www.laguarderia.cl/filosofia" title="">filosofía</a>
-                        </li>
-                        <li class="">
-                            <a href="https://www.laguarderia.cl/filosofia" title="">servicios especiales</a>
-                        </li>
-                        <li>
-                            <a href="https://www.laguarderia.cl/planes-de-pago" title="">planes de pago</a>
-                        </li>
-                        <li>
-                            <a href="https://www.laguarderia.cl/contacto" title="">contacto</a>
-                        </li>
-                    </ul>
-                    <div class="uk-navbar-content uk-flex uk-flex-middle tm-visible-xlarge">
-                        <a class="uk-button tm-button uk-button-primary" href="/user/login">Iniciar Sesion</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
+		<?php
+		include( "../../assets/incrustado/navbar.php" );
+		?>
     </header>
     <section class="inscripcion">
         <div id="tm-hero"
@@ -157,9 +105,8 @@
         </div>
     </section>
 </section>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit-icons.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<?php
+include( "../../assets/incrustado/pie-js.php" );
+?>
 </body>
 </html>
