@@ -1,10 +1,12 @@
 # My Babysitter
-Sitio web, para una compañia de servicios de cuidado de niños a domicilio. Proyecto para asignatura "Taller de Integración de Software", Inacap Temuco, 2018
+Sitio web, para una compañia de servicios de cuidado de niños a domicilio. 
+
+Proyecto para asignatura "Taller de Integración de Software", Inacap Temuco, 2018
 ## Importante
 
 Para poder ejecutar correctamente el sitio web, se recomienda hacer unas cuantas configuraciones. 
 
-###VirtualHost
+### VirtualHost
 En  *"C:\xampp\apache\conf\extra\httpd-vhosts.conf"*
 
 Editar el archivo con cualquier editor de texto y añadir lo siguiente
