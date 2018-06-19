@@ -40,7 +40,7 @@
 				<a class="dropdown-item" href="/intranet/babysitters">Babysitters</a>
 				<a class="dropdown-item" href="/intranet/padres">Padres</a>
 				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/intranet/administrtacion">Administracion</a>
+				<a class="dropdown-item" href="/intranet/administracion">Administracion</a>
 			</div>
 		</div>
 	</div>

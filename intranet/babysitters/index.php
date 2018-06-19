@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Baby-sitter</title>
 	<?php
-	include( "../../assets/incrustado/head.php" );
+    include( "../../assets/incrustado/head.php" );
 	?>
 </head>
 <body style="background-color: #f5f5f5 !important;">
