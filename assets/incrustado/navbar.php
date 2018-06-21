@@ -9,8 +9,8 @@
 			<img alt="logo" src="assets/img/logo.png" style="width: 70px; height: 70px">
 		</a>
 		<ul class="navbar-nav mr-auto uk-navbar-nav">
-			<li class="nav-item active">
-				<a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
+			<li class="nav-item">
+				<a class="nav-link" href="/">Inicio</a>
 			</li>
 			<li>
 				<a href="/features">Quienes Somos</a>
@@ -19,19 +19,24 @@
 				<a href="https://www.laguarderia.cl/como-funciona" title="">cómo funciona?</a>
 			</li>
 			<li class="nav-item">
-				<a href="/marketplace">BabySitters</a>
+				<a href="galeria.php">BabySitters</a>
 			</li>
 			<li class="nav-item">
 				<a href="https://www.laguarderia.cl/filosofia" title="">filosofía</a>
 			</li>
 			<li class="nav-item">
-				<a href="https://www.laguarderia.cl/planes-de-pago" title="">planes de pago</a>
+				<a href="membresias.php" title="">Membresias</a>
 			</li>
 			<li class="nav-item">
-				<a href="https://www.laguarderia.cl/contacto" title="">contacto</a>
+				<a href="contacto.php" title="">Contacto</a>
 			</li>
 		</ul>
 		<div class="btn-group">
+			<?php if($ses == true){?>
+				<a class="btn btn-danger"  href="intranet/logout.php">
+					<i class="fas fa-user-circle"></i> Cerrar Sesión
+				</a>
+			<?php }else{?>
 			<button type="button" class="btn btn-danger dropdown-toggle"
 			        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				<i class="fas fa-user-circle"></i> Iniciar Sesión
@@ -42,6 +47,7 @@
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/intranet/administracion">Administracion</a>
 			</div>
+		<?php }?>
 		</div>
 	</div>
 </nav>

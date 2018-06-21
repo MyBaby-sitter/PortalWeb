@@ -1,3 +1,14 @@
+<?php
+  session_start();
+  $now = time();
+  if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+      if($now > $_SESSION['expire']) {
+          session_destroy();
+          header("Status: 301 Moved Permanently");
+          header("Location: ./login.php");
+          exit;
+    }
+    ?>
 <!doctype html>
 <html lang="es-CL">
 <head>
@@ -23,3 +34,9 @@ include( "../../assets/incrustado/pie-js.php" );
 ?>
 </body>
 </html>
+<?php
+}else{
+    header("Status: 301 Moved Permanently");
+    header("Location: ./login.php");
+    exit;
+} ?>

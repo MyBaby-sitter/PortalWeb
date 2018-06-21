@@ -1,3 +1,15 @@
+<?php
+/*
+  session_start();
+  $now = time();
+  if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+      if($now > $_SESSION['expire']) {
+          session_destroy();
+          header("Status: 301 Moved Permanently");
+          header("Location: ./login.php");
+          exit;
+    } */
+     ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -7,60 +19,18 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Panel de Administracion</title>
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-	      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css">
-	<link href="https://pagekit.com/packages/pagekit/theme-homepage/css/theme.css?v=6a27" rel="stylesheet">
-	<!-- Material Design Bootstrap -->
-	<link href="../../assets/css/mdb.min.css" rel="stylesheet">
-	<!-- Your custom styles (optional) -->
-	<link href="../../assets/css/style.min.css" rel="stylesheet">
-
-
+  <?php
+    include( "../../assets/incrustado/head.php" );
+	?>
 </head>
 <body class="grey lighten-3" style="background-color:#f8f8f8!important;">
-<header>
-	<!-- Navbar -->
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
-		<div class="container-fluid">
-			<!-- Marca -->
-			<a class="navbar-brand waves-effect" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-				<strong class="blue-text">My Baby-sitter</strong>
-			</a>
-			<!-- Collapse -->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-			        aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<!-- Links -->
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<!-- Izquierda -->
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link waves-effect" href="#">Inicio
-							<span class="sr-only">(Altual)</span>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link waves-effect" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">About MDB</a>
-					</li>
-				</ul>
-				<!-- Derecha -->
-				<ul class="navbar-nav nav-flex-icons">
-					<li class="nav-item">
-						<a href="#" class="nav-link border border-light rounded waves-effect danger-color-dark text-light"
-						   target="_blank">
-							<i class="fa fa-github mr-2"></i>Cerrar Sesion
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!--Fin Navbar -->
-
+  <section class="navegacion">
+      <header class="cabecera">
+        <!-- Navbar -->
+          <?php
+            include( "../../assets/incrustado/navbar.php" );
+          ?>
+        </header>
 	<!-- Sidebar -->
 	<div class="sidebar-fixed position-fixed">
         <!--Logo Empresa -->
@@ -1348,33 +1318,11 @@
     });
 
 </script>
-
-<!--Google Maps-->
-<script src="https://maps.google.com/maps/api/js"></script>
-<script>
-    // Regular map
-    function regular_map() {
-        var var_location = new google.maps.LatLng(40.725118, -73.997699);
-
-        var var_mapoptions = {
-            center: var_location,
-            zoom: 14
-        };
-
-        var var_map = new google.maps.Map(document.getElementById("map-container"),
-            var_mapoptions);
-
-        var var_marker = new google.maps.Marker({
-            position: var_location,
-            map: var_map,
-            title: "New York"
-        });
-    }
-
-    // Initialize maps
-    google.maps.event.addDomListener(window, 'load', regular_map);
-</script>
-
 </body>
-
 </html>
+<?php /*
+}else{
+    header("Status: 301 Moved Permanently");
+    header("Location: ./login.php");
+    exit;
+} */ ?>
