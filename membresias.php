@@ -39,10 +39,8 @@ include( "assets/incrustado/head.php" );
            <h1 class="card-title pricing-card-title">$6.000</h1>
            <ul class="list-unstyled mt-3 mb-4">
              <li>Válido por 1 día</li>
-             <li>Pagas cada vez que lo necesites</li>
-             <li>válido por 1 día</li>
-             <li>válido por 1 día</li>
-           </ul>
+             <li>Para cada vez que necesites una de nuestras babysitters puedes contar con ellas</li>
+             </ul>
            <?php
            if ($ses == true){
              ?>
@@ -66,9 +64,7 @@ include( "assets/incrustado/head.php" );
            <h1 class="card-title pricing-card-title">$ 37.000</h1>
            <ul class="list-unstyled mt-3 mb-4">
              <li>Valido por un mes</li>
-             <li>Puedes solicitrar a las babysitters que necesites</li>
-             <li>Priority email support</li>
-             <li>Help center access</li>
+             <li>Con este plan solicita babysitters las veces que necesites durante un mes</li>
            </ul>
            <?php
            if ($ses == true){
@@ -91,10 +87,7 @@ include( "assets/incrustado/head.php" );
          <div class="card-body">
            <h1 class="card-title pricing-card-title">$ 150.000</h1>
            <ul class="list-unstyled mt-3 mb-4">
-             <li>2 niños Minimo</li>
-             <li>15 GB of storage</li>
-             <li>Phone and email support</li>
-             <li>Help center access</li>
+             <li>Ponte de acuerdo con tus amigos y te llevaremos el jardín a tu casa (2 niños mínimo) </li>
            </ul>
            <?php
            if ($ses == true){
@@ -117,12 +110,9 @@ include( "assets/incrustado/head.php" );
          <div class="card-body">
            <h1 class="card-title pricing-card-title">$ 170.000</h1>
            <ul class="list-unstyled mt-3 mb-4">
-             <li>Plan Personalizado</li>
-             <li>15 GB of storage</li>
-             <li>Phone and email support</li>
-             <li>Help center access</li>
+                  <li>Si necesitas algo especial y hecho a tu medida, dinos que necesitas y veremos como podemos ayudarte </li>
            </ul>
-           <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+           <button type="button" class="btn btn-lg btn-block btn-primary btn-outline-primary">Registrate</button>
          </div>
        </div>
      </div
