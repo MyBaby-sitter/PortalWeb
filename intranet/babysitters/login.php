@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="uk-width-large-1-2">
-                            <form class="uk-form uk-form-stacked" action="/user/authenticate" method="post">
+                            <form class="uk-form uk-form-stacked" action="intranet/entrar.php?t=babysitters" method="post">
                                 <h2 class="uk-text-center">Introduce los siguientes datos</h2>
                                 <div class="uk-form-row">
                                     <input class="uk-width-1-1" type="text" name="rut" id="rut" placeholder="Rut"
