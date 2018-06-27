@@ -1,3 +1,11 @@
+<?php
+  include ("../../assets/incrustado/sesion.php");
+     if ($ses == true){
+       session_destroy();
+       header("Status: 301 Moved Permanently");
+       header("Location: ./index.php");
+       exit;
+     }?>
 <!doctype html>
 <html lang="es-CL">
 <head>

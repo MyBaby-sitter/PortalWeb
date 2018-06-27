@@ -17,11 +17,7 @@ include( "assets/incrustado/head.php" );
 <section class="navegacion">
     <header class="cabecera">
       <?php
-      if ($ses == true){
-        include( "assets/incrustado/navbarSesion.php" );
-      }else{
         include( "assets/incrustado/navbar.php" );
-      }
        ?>
     </header>
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
@@ -112,7 +108,17 @@ include( "assets/incrustado/head.php" );
            <ul class="list-unstyled mt-3 mb-4">
                   <li>Si necesitas algo especial y hecho a tu medida, dinos que necesitas y veremos como podemos ayudarte </li>
            </ul>
-           <button type="button" class="btn btn-lg btn-block btn-primary btn-outline-primary">Registrate</button>
+           <?php
+           if ($ses == true){
+             ?>
+             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Contratar</button>
+             <?php
+           }else{
+             ?>
+             <a href="intranet/padres/registro.php" class="btn btn-lg btn-block btn-outline-primary">Registrate</a>
+             <?php
+           }
+            ?>
          </div>
        </div>
      </div

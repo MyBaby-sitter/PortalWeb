@@ -12,23 +12,20 @@
 			<li class="nav-item">
 				<a class="nav-link" href="/">Inicio</a>
 			</li>
-			<li>
-				<a href="/features">Quienes Somos</a>
-			</li>
-			<li class="nav-item">
-				<a href="https://www.laguarderia.cl/como-funciona" title="">cómo funciona?</a>
-			</li>
+
+
 			<li class="nav-item">
 				<a href="galeria.php">BabySitters</a>
 			</li>
-			<li class="nav-item">
-				<a href="https://www.laguarderia.cl/filosofia" title="">filosofía</a>
-			</li>
+
 			<li class="nav-item">
 				<a href="membresias.php" title="">Membresias</a>
 			</li>
 			<li class="nav-item">
 				<a href="contacto.php" title="">Contacto</a>
+			</li>
+			<li class="nav-item">
+				<a href="registro.php" title="">Registrate</a>
 			</li>
 		</ul>
 		<div class="btn-group">

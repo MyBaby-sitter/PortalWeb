@@ -1,4 +1,7 @@
-<!doctype html>
+<?php
+  include ("../../assets/incrustado/sesion.php");
+     ?>
+     <!doctype html>
 <html lang="es-CL">
 <head>
     <meta charset="UTF-8">
